@@ -8,8 +8,7 @@ spring:
 eureka:
   client: #客户端注册进eureka服务列表内
     service-url: 
-      defaultZone: http://eureka-service1.registryservice:7000/eureka,http://eureka-service2.registryservice:7000/eureka,http://eureka-service3.registryservice:7000/eureka
-      #defaultZone: http://127.0.0.1:8001/eureka/  
+      defaultZone: http://wmtxg-springcloud-eureka.cd:8001/eureka/  
   instance:
     instance-id: sys
     prefer-ip-address: true     #访问路径可以显示IP地址 
